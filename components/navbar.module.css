@@ -32,11 +32,20 @@
   font-size: 0.875rem;
 }
 
+.navbar a:hover {
+  color: #b4bcd0;
+}
+
 .button {
   background-color: rgb(94, 106, 210);
   padding: 0.4rem 1.1rem;
   border-radius: 1rem;
   font-stretch: 100%;
+}
+
+.navbar .button:hover {
+  background-color: rgb(106, 118, 231);
+  color: rgb(255, 255, 255);
 }
 
 .logo {
