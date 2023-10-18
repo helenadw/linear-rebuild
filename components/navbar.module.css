@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid rgba(247, 248, 248, 0.1);
+  padding: 0.6rem;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0;
+  margin-left: 1.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(247, 248, 248);
+  font-size: 0.875rem;
+}
+
+.button {
+  background-color: rgb(94, 106, 210);
+  padding: 0.4rem 1.1rem;
+  border-radius: 1rem;
+  font-stretch: 100%;
+}
+
+.logo {
+  width: 4rem;
+}
