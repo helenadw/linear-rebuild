@@ -1,4 +1,5 @@
 import styles from "./hero.module.css";
+import heroImg from "@/public/linearHero.png";
 
 export default function Hero() {
   return (
@@ -17,6 +18,7 @@ export default function Hero() {
       <a href="/" type="button" className={styles.heroButton}>
         Get started
       </a>
+      <img src={heroImg.src} className={styles.heroImg}></img>
     </div>
   );
 }
